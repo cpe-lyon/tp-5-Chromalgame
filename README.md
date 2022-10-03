@@ -5,4 +5,5 @@
 3. `sudo fdisk /dev/sdb` écrire `n` puis `p` puis `1` puis `2048` puis `+2G` la première partition est créer. Pour changer le type de la partition il faut faire `sudo fdisk /dev/sdb` puis `t` puis `2` puis `7`.
 4. Pour formater il faut faire `sudo mkfs.ext4 /dev/sdb1`.
 5. Il affiche `xfs` et `vfat` donc la commande fonctionne.
-6. 
+6. Créer le dossier de montage des partitions dans `media` avec `sudo mkdir /media/sdb1`. Compléter le fichier `/etc/fstab`. [DOCUMENTATION](https://doc.ubuntu-fr.org/mount_fstab)
+7. 
