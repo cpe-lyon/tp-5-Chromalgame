@@ -7,7 +7,7 @@
 5. Il affiche `xfs` et `vfat` donc la commande fonctionne.
 6. Créer le dossier de montage des partitions dans `media` avec `sudo mkdir  /media/sdb1`. Compléter le fichier `/etc/fstab`. [DOCUMENTATION](https://doc.ubuntu-fr.org/mount_fstab)
 7. `mount` puis `reboot`.
-8. Impossible du vSphere.
+8. Impossible sur vSphere.
 9. 
 
 ## Exercice 2. Partitionnement LVM
